@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(154, 0, 0, 255));</string>
+   </property>
+   <widget class="QMenu" name="menuFichier">
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+    <addaction name="actionNouveau"/>
+    <addaction name="actionOuvrir_Fichier"/>
+    <addaction name="actionSauvegarder_Fichier"/>
+    <addaction name="separator"/>
+    <addaction name="actionCr_er_Enveloppe"/>
+    <addaction name="actionCr_er_Toutes_Les_Configurations"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <widget class="QMenu" name="menuSommet">
+    <property name="title">
+     <string>Sommet</string>
+    </property>
+    <addaction name="actionTous_Sommets"/>
+    <addaction name="separator"/>
+    <addaction name="actionSommet_1"/>
+    <addaction name="actionSommet_2"/>
+    <addaction name="actionSommet_3"/>
+    <addaction name="actionSommet_4"/>
+    <addaction name="actionSommet_5"/>
+    <addaction name="actionSommet_6"/>
+    <addaction name="actionSommet_7"/>
+    <addaction name="actionSommet_8"/>
+    <addaction name="actionSommet_9"/>
+    <addaction name="actionSommet_10"/>
+    <addaction name="actionSommet_11"/>
+    <addaction name="actionSommet_12"/>
+    <addaction name="actionSommet_13"/>
+    <addaction name="actionSommet_14"/>
+    <addaction name="actionSommet_15"/>
+    <addaction name="actionSommet_16"/>
+   </widget>
+   <widget class="QMenu" name="menuAffichage">
+    <property name="title">
+     <string>Affichage</string>
+    </property>
+    <addaction name="actionAfficher_Hypercube"/>
+    <addaction name="actionAfficher_Ar_te_Enveloppe"/>
+    <addaction name="actionAfficher_Triangle_Enveloppe"/>
+   </widget>
+   <widget class="QMenu" name="menuVersion">
+    <property name="title">
+     <string>Version</string>
+    </property>
+    <addaction name="actionVersion"/>
+   </widget>
+   <addaction name="menuFichier"/>
+   <addaction name="menuSommet"/>
+   <addaction name="menuAffichage"/>
+   <addaction name="menuVersion"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNouveau">
+   <property name="text">
+    <string>Nouveau</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionOuvrir_Fichier">
+   <property name="text">
+    <string>Ouvrir Fichier</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionSauvegarder_Fichier">
+   <property name="text">
+    <string>Sauvegarder Fichier</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionCr_er_Enveloppe">
+   <property name="text">
+    <string>Créer Enveloppe</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionCr_er_Toutes_Les_Configurations">
+   <property name="text">
+    <string>Créer Toutes Les Configurations</string>
+   </property>
+  </action>
+  <action name="actionQuitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionTous_Sommets">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Tous Sommets</string>
+   </property>
+  </action>
+  <action name="actionSommet_1">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 1</string>
+   </property>
+  </action>
+  <action name="actionSommet_2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 2</string>
+   </property>
+  </action>
+  <action name="actionSommet_3">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 3</string>
+   </property>
+  </action>
+  <action name="actionSommet_4">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 4</string>
+   </property>
+  </action>
+  <action name="actionSommet_5">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 5</string>
+   </property>
+  </action>
+  <action name="actionSommet_6">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 6</string>
+   </property>
+  </action>
+  <action name="actionSommet_7">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 7</string>
+   </property>
+  </action>
+  <action name="actionSommet_8">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 8</string>
+   </property>
+  </action>
+  <action name="actionSommet_9">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 9</string>
+   </property>
+  </action>
+  <action name="actionSommet_10">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 10</string>
+   </property>
+  </action>
+  <action name="actionSommet_11">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 11</string>
+   </property>
+  </action>
+  <action name="actionSommet_12">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 12</string>
+   </property>
+  </action>
+  <action name="actionSommet_13">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 13</string>
+   </property>
+  </action>
+  <action name="actionSommet_14">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 14</string>
+   </property>
+  </action>
+  <action name="actionSommet_15">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 15</string>
+   </property>
+  </action>
+  <action name="actionSommet_16">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Sommet 16</string>
+   </property>
+  </action>
+  <action name="actionAfficher_Hypercube">
+   <property name="text">
+    <string>Afficher Hypercube</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+H</string>
+   </property>
+  </action>
+  <action name="actionAfficher_Ar_te_Enveloppe">
+   <property name="text">
+    <string>Afficher Arête Enveloppe</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+E</string>
+   </property>
+  </action>
+  <action name="actionAfficher_Triangle_Enveloppe">
+   <property name="text">
+    <string>Afficher Triangle Enveloppe</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+T</string>
+   </property>
+  </action>
+  <action name="actionVersion">
+   <property name="icon">
+    <iconset resource="ressource.qrc">
+     <normaloff>:/new/image/ressource/env_conv100.jpg</normaloff>:/new/image/ressource/env_conv100.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Version</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="ressource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

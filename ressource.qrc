@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/image">
+        <file>ressource/env_conv1.jpg</file>
+        <file>ressource/env_conv100.jpg</file>
+    </qresource>
+</RCC>
